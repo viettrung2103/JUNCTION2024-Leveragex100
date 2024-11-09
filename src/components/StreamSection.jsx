@@ -11,8 +11,8 @@ function StreamSection() {
           <div className="video">
             <div className="video-container">
               <iframe
-                src="https://www.youtube.com/embed/KkY3JGDqMT8"
-                title="One year in 2 minutes"
+                src="https://www.youtube.com/embed/2BDUjKNjQPs"
+                title="LiveStream for Leveragex100"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerPolicy="strict-origin-when-cross-origin"
@@ -46,4 +46,15 @@ function StreamSection() {
 
 export default StreamSection;
 
-
+{
+  /* <iframe
+  width="866"
+  height="487"
+  src="https://www.youtube.com/embed/2BDUjKNjQPs"
+  title="LiveStream for Leveragex100"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen
+></iframe>; */
+}
