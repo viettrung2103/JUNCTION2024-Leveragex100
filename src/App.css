@@ -14,7 +14,24 @@
   color: white; */
   text-align: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 10px;
+}
+
+.company,
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.sidebar {
+  width: 20%;
+}
+
+.content {
+  width: 75%;
 }
 
 .footer {
