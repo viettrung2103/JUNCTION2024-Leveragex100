@@ -1,11 +1,12 @@
-import { Link } from "react-router-dom";
-
 const Navbar = () => {
   return (
     <div className="navbar">
-      <div id="logo">Logo</div>
-      <div id="searchbar">Search</div>
-      <div id="user">Welcome </div>
+      <div className="logo">WorkCulturex100</div>
+      <div className="search-bar">
+        <input type="text" placeholder="Search..." />
+        <button className="search-button">Search</button>
+      </div>
+      <div className="username">User999</div>
     </div>
   );
 };

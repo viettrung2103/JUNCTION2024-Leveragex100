@@ -139,7 +139,7 @@ h3 {
   margin-bottom: 10px;
 }
 
-.username {
+.chat-username {
   font-weight: bold;
   color: #0066cc;
 }
@@ -202,7 +202,7 @@ h3 {
 .company-bar {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 10px;
   padding: 10px;
   background-color: #f0f0f0;
   border-radius: 10px;
@@ -290,4 +290,57 @@ h3 {
   font-weight: bold;
   cursor: pointer;
   font-size: 14px;
+}
+
+/* NavBar.css */
+
+/* NavBar.css */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-bar {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar input {
+  width: 60%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-button {
+  padding: 8px 15px;
+  border: none;
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+}
+
+.search-button:hover {
+  background-color: #444;
+}
+
+.username {
+  font-size: 16px;
+  font-weight: bold;
+  /* color: white; */
 }

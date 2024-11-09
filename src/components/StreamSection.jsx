@@ -1,5 +1,6 @@
 import LiveChatBox from "./LiveChatBox";
 import TagBar from "./TagBar";
+import companyProfile from "../assets/LEVAGE.png";
 
 function StreamSection() {
   return (
@@ -14,11 +15,7 @@ function StreamSection() {
             </video>
           </div>
           <div className="company-bar">
-            <img
-              className="company-photo"
-              src="company-profile-photo.jpg"
-              alt="Company"
-            />
+            <img className="company-photo" src={companyProfile} alt="Company" />
             <div className="company-details">
               <div className="company-info">
                 <div className="company-name">Leveragex100 Oy</div>
