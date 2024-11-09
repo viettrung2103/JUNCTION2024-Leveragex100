@@ -1,10 +1,10 @@
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <h2>Sidebar1</h2>
-      <h2>Sidebar2</h2>
-      <h2>Sidebar3</h2>
-      <h2>Sidebar4</h2>
+      <p>Sidebar1</p>
+      <p>Sidebar2</p>
+      <p>Sidebar3</p>
+      <p>Sidebar4</p>
     </div>
   );
 };

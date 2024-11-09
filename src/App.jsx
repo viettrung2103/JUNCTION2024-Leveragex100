@@ -5,14 +5,20 @@ import Employee from "./pages/Employee";
 import Company from "./pages/Company";
 import Home from "./pages/Home";
 import { CompanyLayout } from "./components/BodyLayout";
+
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 // import Employee from "./pages/Employee";
 
 function App() {
   return (
-    <>
-      <Router>
+    <div className="container">
+      <Navbar />
+      <Company />
+      <Footer />
+      {/* <Router>
         <Routes>
-          {/* <Route path="/" element={<Employee />} /> */}
+
           <Route path="/" element={<AppLayout />}>
             <Route index element={<Home />} />
             <Route path="companies" element={<CompanyLayout />}>
@@ -20,8 +26,8 @@ function App() {
             </Route>
           </Route>
         </Routes>
-      </Router>
-    </>
+      </Router> */}
+    </div>
   );
 }
 
