@@ -8,7 +8,8 @@ function StreamSection() {
       <div className="stream-content">
         <div className="stream-video">
           <div className="video">
-            <video width="100%" controls>
+            {/* <video width="100%"  controls> */}
+            <video controls>
               <source src="your-video-file.mp4" type="video/mp4" />
             </video>
           </div>
