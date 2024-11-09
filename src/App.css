@@ -102,3 +102,191 @@ h3 {
   color: white;
   text-align: center;
 }
+
+.tag_bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 15px 25px;
+}
+
+.tag {
+  min-width: 100px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.tag:hover {
+  background-color: #d1e7fd;
+}
+
+.chat-header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.chat-content {
+  padding: 10px;
+  height: 320px;
+  overflow-y: scroll;
+}
+
+.chat-message {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.username {
+  font-weight: bold;
+  color: #0066cc;
+}
+
+.chat-input {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.chat-input button {
+  padding: 8px 15px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-input button:hover {
+  background-color: #444;
+}
+
+.stream-section {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+/* Container for the Stream Video and Live Chat */
+.stream-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.live-chat {
+  width: 30%;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+.stream-video {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Company Profile Bar */
+.company-bar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+.company-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.company-details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.company-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.follow-btn {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.follow-btn:hover {
+  background-color: #005bb5;
+}
+
+/* Video Style */
+.video {
+  width: 100%;
+  background-color: #000;
+  border-radius: 10px;
+}
+
+/* React btns */
+.chat-reactions {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 10px 10px 10px;
+  border-top: 1px solid #ccc;
+}
+
+.react-btn {
+  background-color: transparent;
+  border-radius: 10px;
+  width: 120px;
+  border: solid 1px black;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.react-btn:hover {
+  background-color: #d1e7fd;
+}
+
+.live-btn {
+  margin-left: 10px;
+  background-color: #e50000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
