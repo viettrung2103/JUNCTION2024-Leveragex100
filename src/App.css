@@ -18,7 +18,7 @@
 }
 
 .navbar {
-  position: fixed;
+  /* position: fixed;
   left: 0;
   top: 0;
   width: 100%;
@@ -26,8 +26,18 @@
   color: white; */
   text-align: center;
   display: flex;
-  justify-content: center;
+  justify-content: start;
+  align-items: center;
   gap: 10px;
+}
+#logo {
+  width: 20%;
+}
+#searchbar {
+  width: 50%;
+}
+#user {
+  width: 20%;
 }
 
 .company,
@@ -37,10 +47,41 @@
   flex-direction: row;
   justify-content: start;
   width: 100%;
+  height: 89dvh;
 }
 
 .sidebar {
+  position: relative;
   width: 20%;
+  min-height: 100%;
+  margin-top: 1rem;
+  padding-left: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar p,
+h3 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.popup {
+  z-index: 999;
+  position: absolute;
+  bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.75rem;
+  text-wrap: wrap;
+  width: 85%;
+  height: 3.5rem;
+  bottom: 1.5rem;
+  background-color: rgba(255, 255, 255, 1); /* Solid white */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .content {
