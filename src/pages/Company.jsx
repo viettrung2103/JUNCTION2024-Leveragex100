@@ -1,7 +1,5 @@
-// import Button from "react-bootstrap/Button";
-// import Button from "@mui/material/Button";
-
 import Sidebar from "../components/Sidebar";
+import StreamSection from "../components/StreamSection";
 
 // imporpt {Button}
 
@@ -9,7 +7,7 @@ const Company = () => {
   return (
     <div className="body">
       <Sidebar />
-      <p className="company-content">This is company part</p>
+      <StreamSection />
     </div>
   );
 };
