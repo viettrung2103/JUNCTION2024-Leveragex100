@@ -1,7 +1,19 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0.5rem;
+  text-align: center;
+} */
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  /* justify-content: ; */
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 0.5rem; */
   text-align: center;
 }
 
@@ -14,7 +26,30 @@
   color: white; */
   text-align: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 10px;
+}
+
+.company,
+.home,
+.body {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width: 100%;
+}
+
+.sidebar {
+  width: 20%;
+}
+
+.content {
+  width: 75%;
+}
+
+.company-content {
+  text-align: center;
+  width: 75%;
 }
 
 .footer {
