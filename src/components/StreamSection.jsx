@@ -9,10 +9,16 @@ function StreamSection() {
       <div className="stream-content">
         <div className="stream-video">
           <div className="video">
-            {/* <video width="100%"  controls> */}
-            <video controls>
-              <source src="your-video-file.mp4" type="video/mp4" />
-            </video>
+            <div className="video-container">
+              <iframe
+                src="https://www.youtube.com/embed/KkY3JGDqMT8"
+                title="One year in 2 minutes"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></iframe>
+            </div>
           </div>
           <div className="company-bar">
             <img className="company-photo" src={companyProfile} alt="Company" />
@@ -39,3 +45,5 @@ function StreamSection() {
 }
 
 export default StreamSection;
+
+
