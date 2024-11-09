@@ -7,8 +7,7 @@ const Sidebar = () => {
       <p>Explore</p>
       <p>Profile</p>
       <br></br>
-      {/* <br></br>
-      <br></br> */}
+
       <h3>Other LIVEs</h3>
       <p>Company X 100</p>
       <p>Company Y 200</p>
