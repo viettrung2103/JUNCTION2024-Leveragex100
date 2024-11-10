@@ -1,7 +1,8 @@
 # WORKCULTUREx100
 
 - Team: Leveragex100
-- Hackathon: Junction 2024, 9/11/24-11/11/24
+- Junction 2024,
+- Time and Place: Helsinki, Finland. 9/11/24-11/11/24
 - Team Members:
   - [Trung Doan](https://github.com/viettrung2103)
   - [Tuan Do](https://github.com/DozyXYZ)
